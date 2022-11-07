@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 92px;
+    background: #1C1E53;
+    opacity: 0.95;
+    z-index: 100;
+}
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}

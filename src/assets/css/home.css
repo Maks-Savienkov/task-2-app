@@ -1,0 +1,362 @@
+input[type="text"], input[type="password"] {
+    box-sizing: border-box;
+    display: block;
+    height: 64px;
+    background: transparent;
+    padding: 18px 0 18px 32px;
+    width: 432px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    opacity: 0.5;
+}
+
+/* Intro style start */
+
+.intro {
+    background: #1C1E53;
+    height: 760px;
+    padding-top: 218px;
+    box-sizing: border-box;
+}
+.intro__wraper {
+    display: flex;
+    flex-direction: row;
+}
+.intro-heading {
+    margin-right: 60px;
+    padding-top: 90px;
+}
+.website__title {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #FFFFFF;
+    margin-right: 60px;
+    width: 582px;
+}
+.website__subtitle {
+    display: flex;
+    width: 562px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+.intro-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.intro__illustration {
+    padding-top: 113px;
+}
+
+/* Intro style end */
+
+
+
+/* How we work style start */
+
+.how {
+    background: #F4F6FC;
+    height: 661px;
+    box-sizing: border-box;
+}
+.how__wraper {
+    display: flex;
+    flex-direction: row;
+}
+.how__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 405px;
+    margin-right: 142px;
+}
+.how__heading-subtitle {
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+.how__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 48px;
+    width: 656px;
+}
+
+/* How we work style end */
+
+
+
+/* View our projects style start */
+
+.projects-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.projects__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    background: transparent;
+    border: none;
+}
+.projects__link:hover {
+    text-decoration: underline #6C6F98;
+    opacity: 0.9;
+}
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    max-width: 1280px;
+    max-height: 600px;
+}
+.projects-small-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* View our projects style end */
+
+
+
+/* Features style start */
+
+.features {
+    color: #282938;
+}
+.features__pre-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.features__title {
+    text-align: center;
+    margin: 0 auto 47px auto;
+    width: 630px;
+}
+.features-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 24px;
+}
+/* Features style end */
+
+
+
+/* Reviews style start */
+
+.reviews {
+    color: #282938;
+}
+.reviews-heading {
+    width: 330px;
+    margin-right: 110px;
+}
+.reviews-heading__title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    margin-bottom: 16px;
+}
+.reviews-heading__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.7;
+}
+.review {
+    width: 843px;
+}
+.review__text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 48px;
+}
+.review-bottom-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.reviewer {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+.reviewer-ico {
+    margin-right: 14px;
+    width: 52px;
+    height: 52px;
+    clip-path: circle(26px at center);
+}
+.reviewer__name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+.reviewer__bio {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+}
+.reviews-arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Reviews style end */
+
+
+
+/* FAQ style start */
+
+.faq {
+    display: flex;
+    flex-direction: row;
+    color: #282938;
+}
+.faq-heading {
+    margin-right: 109px;
+    width: 328px;
+    box-sizing: content-box;
+}
+.faq__title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+.faq__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #2405F2;
+    opacity: 0.87;
+}
+.faq__link:hover {
+    text-decoration: underline;
+}
+
+/* FAQ style end */
+
+
+
+/* Contact style start */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    background: #1C1E53;
+    margin-bottom: 128px;
+}
+.contact-start-convert-heading {
+    box-sizing: border-box;
+    padding: 96px 96px;
+    width: 656px;
+    height: 691px;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.5),rgba(28, 30, 83, 0.5)), url("../../../public/img/jpg/home/contact/woman-writing-on-paper.jpg");
+}
+.website__title_narrow {
+    width: 464px;
+    margin-right: 0;
+}
+.website__subtitle_narrow {
+    width: 464px;
+    margin-right: 0;
+}
+.contact-form-block {
+    padding: 96px 96px 48px 96px;
+}
+.contact-form__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.contact-form__desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    margin-bottom: 40px;
+}
+.contact-form {
+    text-align: center;
+}
+.contact-form__submit {
+    margin-top: 23px;
+    margin-bottom: 28px;
+    padding: 15px 51px;
+    width: 432px;
+    height: 64px;
+    background: #FCD980;
+    border-radius: 41px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+}
+.contact-form__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 244px;
+}
+.contact-form__arrow {
+    padding-left: 10px;
+}
+.contact-form__link:hover {
+    text-decoration: underline;
+}
+
+/* Contact style end */
+
+
+
+/* Blog style start */
+
+.blog {
+    padding-top: 0;
+    color: #282938;
+}
+.blog__title {
+    margin-bottom: 64px;
+}
+.news-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+/* Blog style end */

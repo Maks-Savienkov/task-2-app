@@ -1,0 +1,174 @@
+/* Reset style */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ /*My style */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    color: #FFFFFF;
+}
+
+section {
+    padding: 128px 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.section__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+
+
+/* Footer style start */
+
+.footer-content {
+    background: #1C1E53;
+    padding-top: 96px;
+}
+.footer-content__wrap {
+    display: flex;
+    flex-direction: row;
+}
+.logo-container {
+    margin-right: 260px;
+    max-width: 400px;
+}
+.footer-logo {
+    margin-bottom: 23px;
+}
+.logo__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    text-wrap: normal;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.lets-talk {
+    max-width: 400px;
+}
+.lets-talk__title {
+    color: white;
+    margin-bottom: 14px;
+}
+.lets-talk__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    opacity: 0.8;
+    margin-bottom: 28px;
+}
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+    width: 144px;
+    height: 16px;
+    justify-content: space-between;
+}
+.contact-info {
+    background: #FCD980;
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    width: 517px;
+    padding-left: 37px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+.contact-info__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+.contact-info__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.8;
+}
+.footer__links {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.footer-links__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright-info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+
+/* Footer style end */

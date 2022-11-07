@@ -1,0 +1,236 @@
+/* Preview style start */
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 128px;
+    padding-top: 220px;
+}
+
+/* Designers intro container style start */
+.designers {
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    margin-bottom: 128px;
+}
+.designers-heading {
+    width: 595px;
+    margin-right: 138px;
+}
+.designers__pre-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    margin-bottom: 8px;
+}
+.designers__title {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #282938;
+    margin-bottom: 31px;
+}
+.designers__desk {
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+    width: 484px;
+    color: #282938;
+    opacity: 0.7;
+}
+/* Designers intro container style end */
+
+/* Business card style start */
+.company-business-card {
+    max-width: 1280px;
+    height: 716px;
+    background: #F4F5F5;
+    margin-bottom: 128px;
+}
+.company-business-card__heading {
+    padding: 80px 80px;
+}
+.company-business-card__pre-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    margin-bottom: 4px;
+}
+.heading-parts {
+    display: flex;
+    flex-direction: row;
+    gap: 61px;
+}
+.heading-part {
+    width: 515px;
+}
+.company-business-card__title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    margin-bottom: 16px;
+}
+.company-business-card__desk {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+/* Business card style end */
+
+/* Process follow style start */
+.processing {
+    align-items: center;
+}
+.processing__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.processing-steps {
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+}
+.processing-line-and-ico {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.processing-step__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    margin-bottom: 8px;
+}
+.processing-step__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+/* Process follow style end */
+
+/* Preview style end */
+
+/* Mission-Vision style start */
+.mission-vision__pre-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    margin-bottom: 16px;
+}
+.mission-vision__title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    margin-bottom: 16px;
+}
+.mission-vision__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+.mission {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 96px;
+}
+.mission-heading {
+    width: 620px;
+    margin-right: 140px;
+    padding-top: 54px;
+}
+.vision {
+    display: flex;
+    flex-direction: row;
+}
+.vision__image {
+    margin-right: 140px;
+}
+.vision-heading {
+    width: 620px;
+    padding-top: 53px;
+}
+
+/* Mission-Vision style end */
+
+
+
+/* Benefits style start */
+
+.benefits {
+    color: #282938;
+}
+.benefits-heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    width: 630px;
+    margin: 0 auto 48px auto;
+}
+.benefits-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 32px;
+    margin-bottom: 48px;
+}
+.benefits-footing {
+    display: flex;
+    flex-direction: row;
+}
+.users-count {
+    margin-right: 89px;
+}
+.users-number {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+.users-count__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+/* Benefits style end */
+
+
+
+/* Our Team style start */
+
+.our-team {
+    color: #282938;
+}
+.our-team__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.team {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+/* Our Team style end */

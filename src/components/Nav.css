@@ -1,0 +1,31 @@
+.navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+.navigation__item {
+    margin-right: 32px;
+}
+.navigation__item:last-child {
+    margin-right: 0;
+}
+.navigation__item_button {
+    margin-left: 48px;
+}
+.navigation__link {
+    font-weight: 500;
+    line-height: 28px;
+    color: #BBBBCB;
+}
+.navigation__link:hover, .header_link:focus {
+    color: white;
+}
+.navigation__link_negative {
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+}
+.navigation__link_negative:hover, .header_link:focus {
+    color: #6C6F98;
+}

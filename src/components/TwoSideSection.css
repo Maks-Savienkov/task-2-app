@@ -1,0 +1,20 @@
+.two-side-section-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.two-side-section_backcolor-blue {
+    background: #1C1E53;
+}
+
+.two-side-section_backcolor-light-blue {
+    background: #EEF4FA;
+}
+
+.two-side-section_backcolor-grey {
+    background: #F4F6FC;
+}
+.two-side-section_backcolor-light-grey {
+    background: #F4F6FC7E;
+}

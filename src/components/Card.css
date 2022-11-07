@@ -1,0 +1,67 @@
+.card__pic {
+    margin-bottom: 16px;
+}
+.card__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+    margin-bottom: 8px;
+}
+.card__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+.block-card {
+    padding: 58px 30px 48px 48px;
+    background: white;
+    color: #1D2130;
+}
+.block-card_backcolor-grey{
+    background: #F4F6FC;
+}
+.block-card__ico {
+    margin-bottom: 25px;
+}
+.block-card__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+.block-card__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+.business-card {
+    background: white;
+    color: #1D2130;
+    padding-bottom: 32px;
+}
+.business-card__ico {
+    width: 168px;
+    height: 168px;
+    clip-path: circle(84px at center);
+    margin: 48px 64px 30px 64px;
+}
+.business-card__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.business-card__position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    opacity: 0.7;
+}
