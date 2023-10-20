@@ -141,7 +141,7 @@ export const About = () => {
                     </div>
                     <div className="vision">
                         <img src="img/jpg/about%20us/vision/photo-of-women-at-the-meeting.jpg"
-                             alt="Photo of women at the meeting" className="vision__image"/>
+                             alt="Women at the meeting" className="vision__image"/>
                         <div className="vision-heading">
                             <h2 className="mission-vision__pre-title">
                                 Our Vision
